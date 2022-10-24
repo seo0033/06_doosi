@@ -1,0 +1,137 @@
+$m_c: #004433;
+$s_c: #7d9d91;
+$txt_c: #00140f;
+$bg_c: #f9f5ea;
+$gr_c : #dddddd;
+$hah_f : 'Hahmlet',
+serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    // outline: 1px solid rgb(158, 179, 199) !important;
+}
+
+body {
+    overflow-x: hidden;
+    background: $bg_c;
+}
+
+.Wrapper {
+    min-width: 1170px;
+}
+
+.inner {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.line {
+    background: $m_c;
+    height: 3px;
+    margin: 0 0 5px 0;
+}
+
+// Header
+.Header {
+    .top {
+        width: 1170px;
+        margin: 0 auto;
+        padding: 8px 0;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            color: $m_c;
+        }
+    }
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        line-height: 80px;
+
+        h1 {
+            width: 100px;
+        }
+
+        ul {
+            display: flex;
+            gap: 40px;
+            color: $m_c;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: $hah_f;
+            text-transform: uppercase;
+        }
+    }
+
+    .last {
+        margin: 0 0 0 0;
+    }
+}
+
+// Footer
+.Footer {
+    color: $txt_c;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+
+    h2 {
+        margin: auto 0;
+    }
+
+    li {
+        margin: 0 0 5px 0;
+    }
+
+    .company_i {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+
+        li {
+            span {
+                font-size: 19px;
+                font-weight: 500;
+            }
+        }
+
+        .bank {
+            color: $m_c;
+        }
+    }
+
+    .f_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .call {
+            margin: 0 0 15px 0;
+            font-size: 19px;
+            font-weight: 500;
+            color: $m_c;
+        }
+
+        .sns {
+            span {
+                display: inline-block;
+                padding: 5px;
+                margin: auto 10px auto 0;
+                border: 1px solid $txt_c;
+                border-radius: 50%;
+            }
+
+        }
+    }
+}

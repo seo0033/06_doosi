@@ -1,5 +1,9 @@
 @use './basic.scss';
 
+* {
+    // outline: 1px solid rgb(158, 179, 199) !important;
+}
+
 .b_bottom {
     border-bottom: 3px solid basic.$m_c;
 }
@@ -61,7 +65,6 @@
                 font-size: 21px;
                 font-weight: 700;
             }
-
         }
 
         .tab_pd {
@@ -100,9 +103,55 @@
 }
 
 //class sub02
+.sub02 {
+    .Class {
+        padding: 30px 0;
+    }
+}
+
+
+//subscribe sub03
+.content {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.theme {
+
+    .tit {
+        margin: 0 0 10px 0;
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .des {
+        margin: 0 0 30px 0;
+    }
+
+    .stit {
+        display: flex;
+        justify-content: space-between;
+
+        figure {
+            border: 3px solid basic.$m_c;
+
+            &>div {
+                border-top: 3px solid basic.$m_c;
+                padding: 10px 0;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+
 
 //review sub04
-.review {
+.sub04 {
 
     .box {
         display: flex;

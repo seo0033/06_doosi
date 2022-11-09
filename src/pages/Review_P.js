@@ -4,12 +4,12 @@ import '../css/Spage.scss'
 import { FaStar } from "react-icons/fa";
 import { useState } from 'react';
 
-const Review = ({ Content }) => {
+const Review_P = ({ Content }) => {
   const num = 3;
   const star = [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />]
 
   return (
-    <section className='review'>
+    <section className='sub04'>
       <div className="sub_v sc">
         <figure>
           <img src={process.env.PUBLIC_URL + "/assets/img/sub_bg_04.png"} alt="" />
@@ -46,4 +46,4 @@ const Review = ({ Content }) => {
   )
 }
 
-export default Review
+export default Review_P

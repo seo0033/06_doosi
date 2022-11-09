@@ -58,7 +58,7 @@ const PRODUCT_03 = [
 //Sub03 Subscribe_sc
 const THEME = [
     { id: 1, tit: "CITY", des: ": 떠나고 싶지만 못 떠나는 지금 꽃으로 여행을 해보세요.", id: 1, stit01: "NEWYORK", stit02: "PARIS", stit03: "SYDNEY", stit04: "JEJU" },
-    { id: 2, tit: "NATURAL", des: "자연이 주는 아름다움을 꽃으로 전해드립니다.", id: 1, stit01: "FIELD", stit02: "SEA", stit03: "FOREST", stit04: "SUNSET" },
+    { id: 2, tit: "NATURAL", des: ": 자연이 주는 아름다움을 꽃으로 전해드립니다.", id: 1, stit01: "FIELD", stit02: "SEA", stit03: "FOREST", stit04: "SUNSET" },
     { id: 3, tit: "PERFORMANCE", des: ": 다양한 움직임과 음율의 향연에서 영감받았습니다.", id: 1, stit01: "BALLET", stit02: "OPERA", stit03: "ORCHESTRA", stit04: "KOREAN DANCE" },
 ]
 const THEME_C = [

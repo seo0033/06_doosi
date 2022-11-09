@@ -5,9 +5,9 @@ import Main from './pages/Main';
 import Marcket_P01 from './pages/Marcket_P01';
 import Marcket_P02 from './pages/Marcket_P02';
 import Marcket_P03 from './pages/Marcket_P03';
-import Class from './components/Class';
-import Subscribe from './components/Subscribe';
-import Review from './pages/Review';
+import Class_P from './pages/Class_P';
+import Subscribe_P from './pages/Subscribe_P';
+import Review_P from './pages/Review_P';
 import Footer from './pages/Footer';
 import './css/basic.scss'
 
@@ -30,9 +30,9 @@ const App = () => {
         <Route path='/sub01/01' element={<Marcket_P01 Content={MAINDATA} />} />
         <Route path='/sub01/02' element={<Marcket_P02 Content={MAINDATA} />} />
         <Route path='/sub01/03' element={<Marcket_P03 Content={MAINDATA} />} />
-        <Route path='/sub02' element={<Class Content={MAINDATA} />} />
-        <Route path='/sub03' element={<Subscribe Content={MAINDATA} />} />
-        <Route path='/sub04' element={<Review Content={MAINDATA} />} />
+        <Route path='/sub02' element={<Class_P Content={MAINDATA} />} />
+        <Route path='/sub03' element={<Subscribe_P Content={MAINDATA} />} />
+        <Route path='/sub04' element={<Review_P Content={MAINDATA} />} />
       </Routes>
       <Footer />
     </Wrapper>

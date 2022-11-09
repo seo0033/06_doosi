@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react_doosi/static/css/main.5c3430c8.css",
-    "main.js": "/react_doosi/static/js/main.d29d6868.js",
+    "main.css": "/react_doosi/static/css/main.19426cbe.css",
+    "main.js": "/react_doosi/static/js/main.86d872cc.js",
     "static/media/main_v_01.jpg": "/react_doosi/static/media/main_v_01.17be5dbc766a6b240aea.jpg",
     "static/media/main_v_03.jpg": "/react_doosi/static/media/main_v_03.31f6b1f026ffc5fb45da.jpg",
     "static/media/main_v_02.jpg": "/react_doosi/static/media/main_v_02.a9c7d84f60e0db3f45e2.jpg",
     "index.html": "/react_doosi/index.html",
-    "main.5c3430c8.css.map": "/react_doosi/static/css/main.5c3430c8.css.map",
-    "main.d29d6868.js.map": "/react_doosi/static/js/main.d29d6868.js.map"
+    "main.19426cbe.css.map": "/react_doosi/static/css/main.19426cbe.css.map",
+    "main.86d872cc.js.map": "/react_doosi/static/js/main.86d872cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c3430c8.css",
-    "static/js/main.d29d6868.js"
+    "static/css/main.19426cbe.css",
+    "static/js/main.86d872cc.js"
   ]
 }
